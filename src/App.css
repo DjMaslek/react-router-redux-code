@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+.header {
+  margin: 40px;
+  color: #1e70ac;
+}
+.navigation {
+  display: inline-block;
+}
+.navigation li {
+  display: inline-block;
+  margin: 5px;
+}
+.navigation a,
+.status {
+  text-decoration: none;
+  color: #6495ed;
+}
+.navigation a:hover,
+.status:hover {
+  color: #8aaef0;
+}
+.navigation a:active,
+.status:active {
+  color: #b0c7f1;
+}
+.login-form {
+  margin: 40px;
+  width: 250px;
+}
+.login-form input {
+  width: 250px;
+  display: block;
+  border: 1px solid #add0e9;
+  border-radius: 3px;
+  padding: 8px;
+  margin-bottom: 5px;
+}
+.login-btn {
+  width: 100%;
+  padding: 8px;
+  background: #cfe2f0;
+  border: 1px solid #104063;
+}
+.login-btn:disabled {
+  background: #858585;
+  color: #fff;
+}
+.err {
+  color: red;
+}
+
+.icon {
+  background-size: 25px 25px;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+}
+
+.vk-ico {
+  background-image: url(./assets/social-media-icons/vkontakte.png);
+}
+
+.telegram-ico {
+  background-image: url(./assets/social-media-icons/telegram.png);
+}
+
+.web-ico {
+  background-image: url(./assets/social-media-icons/rss-feed.png);
+}
+
+.youtube-ico {
+  background-image: url(./assets/social-media-icons/youtube.png);
+}
+
+.twitter-ico {
+  background-image: url(./assets/social-media-icons/twitter.png);
+}
+
+.twitch-ico {
+  background-image: url(./assets/social-media-icons/twitch.png);
+}
+.profile-status {
+  float: right;
+  margin: 21px;
+  margin-right: 40px;
+}
+.status {
+  user-select: none;
+}
+.news,
+.home,
+.profile {
+  margin: 40px;
+}
+.news-block h3,
+.profile h3 {
+  color: #1e70ac;
+}
